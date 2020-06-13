@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/*----------------------------------------------------Colours */
+
+.bg-color-name-title {
+    background-color: #676767;
+}
+
+.ui-menu-color-home {
+    background-color: #ce80b4;
+}
+
+.ui-menu-color-resume {
+    background-color: #c0858d;
+}
+
+.ui-menu-color-contact {
+    background-color: #ac79c0;
+}
+
+.ui-menu-color-download {
+    background-color: #535353;
+}
+
+/*----------------------------------------------------Special Paddings/Margins/Text */
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #dfdfdf;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+/*----------------------------------------------------Heading */
+
+header {
+    margin: 0;
+}
+
+.heading{
+    margin-left: 50px;
+}
+
+.logo {
+    background: url("../assets/images/conor.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.name {
+    font-family: "Exo", sans-serif;
+    font-weight: 200;
+    font-size: 46px;
+    margin-top: 50px;
+    color: whitesmoke;
+
+}
+
+.title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color: #dfdfdf;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav {
+    margin: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
+}
+
+.menuitem {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #dfdfdf;
+    height: 120px;
+}
+
+.menuitem a i {
+    padding-top: 22px;
+    display: block;
+    color: #d6d5d5;
+    font-size: 2rem;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+/*----------------------------------------------------Hover.css */
+
+.hvr-fade:focus, .hvr-fade:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 120px;
+    color: #dfdfdf;
+}
+
+/*----------------------------------------------------Footer */
+
+footer {
+    background-color: #535353;
+    color: #dfdfdf;
+    min-height: 120px;
+    margin: 0;
+}
+
+.cv-pdf i {
+    font-size: 18px;
+    color: #d6d5d5;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out; 
+    -webkit-transition: all 0.35s ease-in-out; 
+    -o-transition: all 0.35s ease-in-out; 
+}
+
+.cv-pdf i:hover {
+    color: #c776ac;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #dfdfdf;
+    background: #808080;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out; 
+    -webkit-transition: all 0.35s ease-in-out; 
+    -o-transition: all 0.35s ease-in-out; 
+}
+
+.social-links li a i:hover {
+    background: #c776ac;
+}
+
+#footer-details {
+    padding: 20px;
+}
